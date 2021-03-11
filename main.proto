@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package a;
+
+import "a.proto";
+import "b.proto";
+
+message Main {
+    A a = 1;
+    B b = 2;
+}
